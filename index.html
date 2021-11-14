@@ -57,21 +57,21 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr onmouseout="dualfont_stop()" onmouseover="dualfont_start()">
+          <tr onmouseout="regnet_stop()" onmouseover="regnet_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='dualfont_image'><img src='images/dualfont_after.png'></div>
-                <img src='images/dualfont_before.png'>
+                <div class="two" id='regnet_image'><img src='images/regnet_after.png' width="160px"></div>
+                <img src='images/regnet_before.png' width="160px">
               </div>
               <script type="text/javascript">
-                function dualfont_start() {
-                  document.getElementById('dualfont_image').style.opacity = "1";
+                function regnet_start() {
+                  document.getElementById('regnet_image').style.opacity = "1";
                 }
 
-                function dualfont_stop() {
-                  document.getElementById('dualfont_image').style.opacity = "0";
+                function regnet_stop() {
+                  document.getElementById('regnet_image').style.opacity = "0";
                 }
-                dualfont_stop()
+                regnet_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -94,22 +94,22 @@
             </td>
           </tr>
 
-          <tr onmouseout="nerfactor_stop()" onmouseover="nerfactor_start()">
+          <tr onmouseout="tednet_stop()" onmouseover="tednet_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='nerfactor_image'>
-                  <img src='images/nerfactor_after.png' width="160"></div>
-                <img src='images/nerfactor_before.png' width="160">
+                <div class="two" id='tednet_image'>
+                  <img src='images/tednet_after.png' width="160"></div>
+                <img src='images/tednet_before.png' width="160">
               </div>
               <script type="text/javascript">
-                function nerfactor_start() {
-                  document.getElementById('nerfactor_image').style.opacity = "1";
+                function tednet_start() {
+                  document.getElementById('tednet_image').style.opacity = "1";
                 }
 
-                function nerfactor_stop() {
-                  document.getElementById('nerfactor_image').style.opacity = "0";
+                function tednet_stop() {
+                  document.getElementById('tednet_image').style.opacity = "0";
                 }
-                nerfactor_stop()
+                tednet_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -123,30 +123,28 @@
               <br>
               <em>Neurocomputing</em>, 2022
               <br>
-              <a href="https://arxiv.org/abs/2104.05018">arXiv</a>
+              <a href="https://arxiv.org/abs/2104.05018">arXiv</a> /
+              <a href="https://github.com/tnbar/tednet">code</a>
               <p></p>
               <p>A toolkit named TedNet for giving a flexible way to construct Tensor Decomposition Networks (TDNs).</p>
             </td>
           </tr>
 
-          <tr onmouseout="hypernerf_stop()" onmouseover="hypernerf_start()">
+          <tr onmouseout="pstrn_stop()" onmouseover="pstrn_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='hypernerf_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/hypernerf_after.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/hypernerf_before.jpg' width="160">
+                <div class="two" id='pstrn_image'><img src='images/pstrn_after.png' width="160"></div>
+                <img src='images/pstrn_before.png' width="160">
               </div>
               <script type="text/javascript">
-                function hypernerf_start() {
-                  document.getElementById('hypernerf_image').style.opacity = "1";
+                function pstrn_start() {
+                  document.getElementById('pstrn_image').style.opacity = "1";
                 }
 
-                function hypernerf_stop() {
-                  document.getElementById('hypernerf_image').style.opacity = "0";
+                function pstrn_stop() {
+                  document.getElementById('pstrn_image').style.opacity = "0";
                 }
-                hypernerf_stop()
+                pstrn_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -169,24 +167,21 @@
             </td>
           </tr>
 
-          <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()">
+          <tr onmouseout="ctn_stop()" onmouseover="ctn_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='nerfbake_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/nerfbake_15.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/nerfbake_160.png' width="160">
+                <div class="two" id='ctn_image'><img src='images/ctn_after.png' width="160px"></div>
+                <img src='images/ctn_before.png' width="160">
               </div>
               <script type="text/javascript">
-                function nerfbake_start() {
-                  document.getElementById('nerfbake_image').style.opacity = "1";
+                function ctn_start() {
+                  document.getElementById('ctn_image').style.opacity = "1";
                 }
 
-                function nerfbake_stop() {
-                  document.getElementById('nerfbake_image').style.opacity = "0";
+                function ctn_stop() {
+                  document.getElementById('ctn_image').style.opacity = "0";
                 }
-                nerfbake_stop()
+                ctn_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -209,24 +204,23 @@
             </td>
           </tr>
 
-          <tr onmouseout="mipnerf_stop()" onmouseover="mipnerf_start()">
+          <tr onmouseout="trrbm_stop()" onmouseover="trrbm_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='mipnerf_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/mipnerf_ipe_yellow.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/mipnerf_ipe_yellow.png' width="160">
+                <div class="two" id='trrbm_image'>
+                  <img src='images/trrbm_after.png' width="160px">
+                </div>
+                <img src='images/trrbm_before.png' width="160px">
               </div>
               <script type="text/javascript">
-                function mipnerf_start() {
-                  document.getElementById('mipnerf_image').style.opacity = "1";
+                function trrbm_start() {
+                  document.getElementById('trrbm_image').style.opacity = "1";
                 }
 
-                function mipnerf_stop() {
-                  document.getElementById('mipnerf_image').style.opacity = "0";
+                function trrbm_stop() {
+                  document.getElementById('trrbm_image').style.opacity = "0";
                 }
-                mipnerf_stop()
+                trrbm_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -252,8 +246,9 @@
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='trrnn_image'>
-                  <img src='images/npil_after.jpg' width="160"></div>
-                <img src='images/npil_before.jpg' width="160">
+                  <img src='images/trrnn_after.png' width="160">
+                </div>
+                <img src='images/trrnn_before.png' width="160px">
               </div>
               <script type="text/javascript">
                 function trrnn_start() {
