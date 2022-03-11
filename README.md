@@ -1,1 +1,1 @@
-This is the source code to Yu Pan's public academic website: https://perryuu.github.io, which is edited from https://jonbarron.info/.
+This is the source code to Yu Pan's public academic website: https://iyupan.github.io, which is edited from https://jonbarron.info/.
